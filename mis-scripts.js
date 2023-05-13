@@ -43,7 +43,7 @@ async function predict_animal()
 				}
 			}
 			ANIMAL_DETECTADO = animals[max_val_index]						
-			document.getElementById("output_text").innerHTML = "<p>El animal detectado y su probabilidad corresponden a</p><p>Animal detectado: " + ANIMAL_DETECTADO + " ( " + (max_val*100).toFixed(2) + "% probabilidad )</p>"
+			document.getElementById("output_text").innerHTML = "<p>El animal detectado y su probabilidad corresponde a: " + ANIMAL_DETECTADO + " ( " + (max_val*100).toFixed(2) + "% probabilidad )</p>"
 	})	
 	
 }
